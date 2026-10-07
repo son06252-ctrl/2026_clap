@@ -59,8 +59,8 @@ const CLAP_SESSIONS = [
     color: "bg-emerald-50/50 group-hover:bg-emerald-50 border-emerald-100/50 hover:border-emerald-200/80", 
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(overview:13).pdf" },
     activities: [
-      "CLAP 프로젝트 전체 로드맵 및 운영 방향 탐색",
-      "교과 문해력과 AI 리터러시 연계 목표 공유"
+      "(도입) 바이브 코딩 및 프로젝트 방향 안내",
+      "(활동) 교과 문해력과 AI 리터러시 연계 목표 탐색"
     ]
   },
   { 
@@ -68,16 +68,17 @@ const CLAP_SESSIONS = [
     phase: 1, 
     title: "1-2차시", 
     enTitle: "Sessions 1-2", 
-    desc: "프로젝트 시작하기: 사회 문제 해결을 위한 인공지능", 
-    enDesc: "Starting the project: AI for Solving Social Problems", 
+    desc: "프로젝트 시작하기", 
+    enDesc: "Starting the Project", 
     color: "bg-teal-50/50 group-hover:bg-teal-50 border-teal-100/50 hover:border-teal-200/80", 
     aiDimension: "Contextualization",
     alignment: "ED-AI Lit: 맥락화 (Contextualization)",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(1-2:13).pdf", worksheet: "/worksheet/CLAP_worksheet (1-2).pdf", ppt: "https://docs.google.com/presentation/d/1qgS3PUJhvLxVSUhcKHWkkrU5XwQAd1PVQdd9JILvEpM/preview" },
     activities: [
-      "프로젝트 목표 이해: 사회 문제 해결을 위한 인공지능 (AI for Solving Social Problems)",
-      "실세계 문제 해결을 위한 바이브 코딩 (Vibe Coding for real world problems) 기획",
-      "실생활 탐구 모둠 구성 및 프로젝트 진행 규칙 수립"
+      "(도입) 바이브 코딩 알아보기",
+      "(활동 1) 일상의 문제 해결을 위한 AI 활용 사례 알아보기",
+      "(활동 2) 프로젝트 주제망 작성하기",
+      "(활동 3) 바이브코딩 따라해보기"
     ]
   },
   { 
@@ -85,17 +86,18 @@ const CLAP_SESSIONS = [
     phase: 2, 
     title: "3-4차시", 
     enTitle: "Sessions 3-4", 
-    desc: "주장하는 글 읽기: 인공지능과 함께하는 독해 및 질문", 
-    enDesc: "Reading persuasive texts: Reading with AI", 
+    desc: "주장하는 글 읽기", 
+    enDesc: "Reading Persuasive Texts", 
     color: "bg-green-50/50 group-hover:bg-green-50 border-green-100/50 hover:border-green-200/80", 
     aiDimension: "Knowledge",
     alignment: "ED-AI Lit: 지식 (Knowledge)",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(3-4:13).pdf", worksheet: "/worksheet/CLAP_worksheet (3-4).pdf", ppt: "https://docs.google.com/presentation/d/1RgfQ8L7g-fxDL0sz3NuijMFBKLmwXPaqnfWYDdB5hAc/preview" },
     activities: [
-      "인공지능의 기본 원리 학습 (AI for Oceans 머신러닝 학습)",
-      "주장하는 글 심층 독해 (Reading argumentative essays)",
-      "생성형 AI 질문법: 효과적인 프롬프트 작성 (Prompt writing)",
-      "읽은 글에 대해 AI에게 질문하고 심층 탐구하기 (Asking AI questions)"
+      "(도입) 대립하는 주장 알아보기",
+      "(활동 1) 주장하는 글의 짜임과 특징 알아보기",
+      "(활동 2) 생성형 AI 사용방법 알아보기 (프롬프트)",
+      "(활동 3) AI와 함께 주장하는 글 읽기",
+      "(활동 4) 스크린 레코딩 업로드하기"
     ]
   },
   { 
@@ -103,16 +105,17 @@ const CLAP_SESSIONS = [
     phase: 2, 
     title: "5차시", 
     enTitle: "Session 5", 
-    desc: "민주주의에서 미디어의 역할 알기 & AI 윤리", 
-    enDesc: "The Role of Media in a Democracy & AI Ethics", 
+    desc: "민주주의에서 미디어의 역할 알아보기", 
+    enDesc: "The Role of Media in a Democracy", 
     color: "bg-lime-50/50 group-hover:bg-lime-50 border-lime-100/50 hover:border-lime-200/80", 
     aiDimension: "Ethics",
     alignment: "ED-AI Lit: 윤리 (Ethics)",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(5:13).pdf", worksheet: "/worksheet/CLAP worksheet (5).pdf", ppt: "https://docs.google.com/presentation/d/15GycQ0zWEPWBPXYuygHBi0XWY0NIdJsHmqv2x6Xy-p8/preview" },
     activities: [
-      "민주주의와 미디어에 대한 설명글 읽기 (Reading informational text about democracy and media)",
-      "미디어 에티켓 및 인공지능 윤리(공정성·투명성·개인정보 보호) 탐구",
-      "디지털 정보 생산자로서의 도덕적 책임 토론"
+      "(도입) AI와 저작권에 대해 생각해보기",
+      "(활동 1) 민주주의에서 미디어의 역할 알아보기",
+      "(활동 2) 미디어 사용 방법 알아보기",
+      "(활동 3) AI 윤리 알아보기"
     ]
   },
   { 
@@ -120,16 +123,16 @@ const CLAP_SESSIONS = [
     phase: 2, 
     title: "6차시", 
     enTitle: "Session 6", 
-    desc: "미디어의 내용을 비판적으로 읽기 & 옆으로 읽기", 
-    enDesc: "Reading Media contents critically & Lateral Reading", 
+    desc: "미디어의 내용을 비판적으로 읽기", 
+    enDesc: "Reading Media Contents Critically", 
     color: "bg-cyan-50/50 group-hover:bg-cyan-50 border-cyan-100/50 hover:border-cyan-200/80", 
     aiDimension: "Evaluation",
     alignment: "ED-AI Lit: 비판적 평가 (Evaluation)",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(6:13).pdf", worksheet: "/worksheet/CLAP worksheet (6).pdf", ppt: "https://docs.google.com/presentation/d/16yPCh4HY4aPtnPUkvZ0E_FmypAS-7Saw5GJcERTIaaI/preview" },
     activities: [
-      "온라인 정보와 AI 생성 정보의 비교 및 식별 (Online vs AI generated info)",
-      "옆으로 읽기(Lateral Reading)를 통한 정보 신뢰성 교차 검증 및 팩트체크",
-      "AI 산출물의 강점, 한계점 및 잠재적 편향(Biases) 비판적 진단"
+      "(도입) 가짜뉴스로 인한 문제에 대해 이야기 나누기",
+      "(활동 1) 미디어의 내용을 비판적으로 읽어야하는 까닭",
+      "(활동 2) 비판적으로 읽기 (수평 읽기)"
     ]
   },
   { 
@@ -137,16 +140,17 @@ const CLAP_SESSIONS = [
     phase: 3, 
     title: "7차시", 
     enTitle: "Session 7", 
-    desc: "사회 문제 해결을 위한 계획 세우기 (AI 협업)", 
-    enDesc: "Making a plan to solve a local problem (AI Collaboration)", 
+    desc: "사회 문제 해결을 위한 계획 세우기", 
+    enDesc: "Making a Plan to Solve Social Problems", 
     color: "bg-sky-50/50 group-hover:bg-sky-50 border-sky-100/50 hover:border-sky-200/80", 
     aiDimension: "Collaboration",
     alignment: "ED-AI Lit: 협업 및 소통 (Collaboration)",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(7:13).pdf", worksheet: "/worksheet/CLAP worksheet (7).pdf", ppt: "https://docs.google.com/presentation/d/1sFm6zvWxN74MwQyQIMBi3mA1NDNpE1-ge1uwwemLGpU/preview" },
     activities: [
-      "해결하고 싶은 지역 사회 이슈 선정 (Selecting a local issue)",
-      "AI를 지원 도구로 활용한 지역 이슈 탐색 및 브레인스토밍 (AI assisted searching)",
-      "AI와 협력하여 주장하는 글의 논리 구조와 개요 설계 (Planning essay structure with AI)"
+      "(도입) AI를 활용한 사회 문제 해결의 예 알아보기",
+      "(활동 1) 사회 문제 해결을 위한 계획 세우기",
+      "(활동 2) AI 활용해 검색하기 (글 계획 세우기)",
+      "(활동 3) 개발하고 싶은 앱 계획 세우기"
     ]
   },
   { 
@@ -154,16 +158,16 @@ const CLAP_SESSIONS = [
     phase: 3, 
     title: "8-9차시", 
     enTitle: "Sessions 8-9", 
-    desc: "주장하는 글 쓰기 (AI Free) & 출처 표기", 
-    enDesc: "Writing persuasive texts (AI Free) & Citing Sources", 
+    desc: "주장하는 글 쓰기 (AI Free)", 
+    enDesc: "Writing Persuasive Texts (AI Free)", 
     color: "bg-fuchsia-50/50 group-hover:bg-fuchsia-50 border-fuchsia-100/50 hover:border-fuchsia-200/80", 
-    aiDimension: "Ethics",
-    alignment: "올바른 인용 및 지적 윤리 (Ethics)",
+    aiDimension: "Collaboration",
+    alignment: "ED-AI Lit: 협력 (Collaboration)",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(8-9:13).pdf", worksheet: "/worksheet/CLAP worksheet (8-9).pdf", ppt: "https://docs.google.com/presentation/d/1a-i9lzwU-qdyMNwk7rgeBadLNbGeVzw6jT1J0KKoCLQ/preview" },
     activities: [
-      "AI Free 글쓰기: AI 도구 없이 자신의 순수한 논리와 근거로 초안 작성",
-      "올바른 출처 인용법(How to cite the sources) 학습 및 적용",
-      "지역 사회 문제 해결을 위한 설득력 있는 논증 에세이 완성"
+      "(도입) 설득력 있는 주장 생각하기",
+      "(활동 1) 인용하는 방법 알아보기",
+      "(활동 2) 주장하는 글 쓰기"
     ]
   },
   { 
@@ -171,16 +175,17 @@ const CLAP_SESSIONS = [
     phase: 3, 
     title: "10-12차시", 
     enTitle: "Sessions 10-12", 
-    desc: "AI를 활용해 글 점검하기 & 바이브 코딩 솔루션", 
-    enDesc: "Revising texts with AI & Vibe coding", 
+    desc: "AI를 활용한 글 점검", 
+    enDesc: "Revising Texts with AI", 
     color: "bg-rose-50/50 group-hover:bg-rose-50 border-rose-100/50 hover:border-rose-200/80", 
     aiDimension: "Autonomy",
-    alignment: "ED-AI Lit: 주도성 (Autonomy)",
+    alignment: "ED-AI Lit: 자율성 및 주도성 (Autonomy)",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(10-12:13).pdf", worksheet: "/worksheet/CLAP worksheet (10-12).pdf", ppt: "https://docs.google.com/presentation/d/1ED4D0DLvmLCxKvWiame90i1AOTYqhMDUmWywDA_Xqow/preview" },
     activities: [
-      "동료 피드백 및 AI 피드백을 주도적으로 비교하여 글 퇴고 (Revising with AI)",
-      "AI 제안을 무조건 수용하지 않고 주체적으로 취사선택하는 자기결정권 발휘",
-      "지역 사회 문제 해결을 위한 바이브 코딩 (Vibe coding to solve local problems) 앱 제작"
+      "(도입) 작가들의 글 쓰기 과정 알아보기",
+      "(활동 1) AI를 활용한 글 점검하기",
+      "(활동 2) 동료 평가하기",
+      "(활동 3) 바이브 코딩하기"
     ]
   },
   { 
@@ -188,16 +193,15 @@ const CLAP_SESSIONS = [
     phase: 4, 
     title: "13차시", 
     enTitle: "Session 13", 
-    desc: "최종 프로젝트 발표회 & 결과물 전시", 
-    enDesc: "Final showcase: Exhibition of Essays and Apps", 
+    desc: "결과 발표회", 
+    enDesc: "Final Showcase", 
     color: "bg-pink-50/50 group-hover:bg-pink-50 border-pink-100/50 hover:border-pink-200/80", 
     aiDimension: "Contextualization",
     alignment: "ED-AI Lit: 맥락화 (Contextualization)",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(13:13).pdf" },
     activities: [
-      "최종 프로젝트 성과물 전시 및 공유 (Final showcase)",
-      "주장하는 글(에세이) 및 바이브 코딩 앱(웹사이트) 시연 및 발표",
-      "동료 및 공동체 상호 피드백 나눔 및 프로젝트 성찰"
+      "(도입) 관람 예절 알아보기",
+      "(활동 1) 결과물 관람 및 앱 발표하기"
     ]
   }
 ];
@@ -213,8 +217,8 @@ const CLO_SESSIONS = [
     color: "bg-blue-50/50 group-hover:bg-blue-50 border-blue-100/50 hover:border-blue-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(overview:13).pdf" },
     activities: [
-      "CLO 프로젝트 전체 목표 및 연간/학기 로드맵 확인",
-      "교과 문해력 중심 심층 독서·작문 방향 탐색"
+      "(도입) CLO 프로젝트 전체 목표 및 연간/학기 로드맵 확인",
+      "(활동) 교과 문해력 중심 심층 독서·작문 방향 탐색"
     ]
   },
   { 
@@ -222,13 +226,15 @@ const CLO_SESSIONS = [
     phase: 1, 
     title: "1-2차시", 
     enTitle: "Sessions 1-2", 
-    desc: "프로젝트 시작하기: 시민 과학으로 사회 문제 해결", 
-    enDesc: "Starting the project: Citizen science to solve Social Problems", 
+    desc: "프로젝트 시작하기", 
+    enDesc: "Starting the Project", 
     color: "bg-indigo-50/50 group-hover:bg-indigo-50 border-indigo-100/50 hover:border-indigo-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(1-2:13).pdf", worksheet: "/worksheet/CLO_worksheet (1-2).pdf", ppt: "https://docs.google.com/presentation/d/1X22bbgZsSke-dQwZkhjux8xvZp0eBKVCBhR1ZHaVq8c/preview" },
     activities: [
-      "프로젝트 목표 이해: 시민 과학으로 사회 문제 해결 (Citizen science to solve Social Problems)",
-      "실세계 문제를 위한 시민 과학 참여 및 탐구 과제 설정"
+      "(도입) 시민참여 알아보기",
+      "(활동 1) 일상 문제 해결을 위한 시민참여 사례 알아보기",
+      "(활동 2) 프로젝트 주제망 작성하기",
+      "(활동 3) 시민과학 체험하기"
     ]
   },
   { 
@@ -236,15 +242,15 @@ const CLO_SESSIONS = [
     phase: 2, 
     title: "3-4차시", 
     enTitle: "Sessions 3-4", 
-    desc: "주장하는 글 읽기: 심화 독해 및 정보 검색", 
-    enDesc: "Reading persuasive texts: Extended reading & internet search", 
+    desc: "주장하는 글 읽기", 
+    enDesc: "Reading Persuasive Texts", 
     color: "bg-emerald-50/50 group-hover:bg-emerald-50 border-emerald-100/50 hover:border-emerald-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(3-4:13).pdf", worksheet: "/worksheet/CLO worksheet (3-4).pdf", ppt: "https://docs.google.com/presentation/d/1qht_23nnxGk4DQC5NNAbv-AwM389BgIv9tGDYPiu7Pw/preview" },
     activities: [
-      "주장하는 글 심층 독해 (Reading argumentative essays)",
-      "심화 독해 시간 (Extended reading time)",
-      "인터넷 검색 방법과 대상 학습 (How and what to search for on the internet)",
-      "글에서 낯선 정보를 인터넷으로 검색하기"
+      "(도입) 대립하는 주장 알아보기",
+      "(활동 1) 주장하는 글의 짜임과 특징 알아보기",
+      "(활동 2) 주장하는 글 읽기",
+      "(활동 3) 인터넷 검색하며 주장하는 글 읽기"
     ]
   },
   { 
@@ -252,13 +258,15 @@ const CLO_SESSIONS = [
     phase: 2, 
     title: "5차시", 
     enTitle: "Session 5", 
-    desc: "민주주의에서 미디어의 역할 알기 & 미디어 에티켓", 
-    enDesc: "The Role of Media in a Democracy & Media Etiquette", 
+    desc: "민주주의에서 미디어의 역할 알아보기", 
+    enDesc: "The Role of Media in a Democracy", 
     color: "bg-teal-50/50 group-hover:bg-teal-50 border-teal-100/50 hover:border-teal-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(5:13).pdf", worksheet: "/worksheet/CLO worksheet (5).pdf", ppt: "https://docs.google.com/presentation/d/15WD9_Goz7sSn-Iju8yb7LzP9BNI4tnCgayy7LSgI5As/preview" },
     activities: [
-      "민주주의와 미디어에 대한 설명글 읽기 (Reading informational text about democracy and media)",
-      "미디어 에티켓 학습 및 실천"
+      "(도입) 미디어와 저작권에 대해 생각해보기",
+      "(활동 1) 민주주의에서 미디어의 역할 알아보기",
+      "(활동 2) 미디어 사용 유의점 알아보기",
+      "(활동 3) 미디어 윤리 (내가 1인 크리에이터라면?)"
     ]
   },
   { 
@@ -266,13 +274,15 @@ const CLO_SESSIONS = [
     phase: 2, 
     title: "6차시", 
     enTitle: "Session 6", 
-    desc: "미디어의 내용을 비판적으로 읽기 & 옆으로 읽기", 
-    enDesc: "Reading Media contents critically & Lateral Reading", 
+    desc: "미디어의 내용을 비판적으로 읽기", 
+    enDesc: "Reading Media Contents Critically", 
     color: "bg-cyan-50/50 group-hover:bg-cyan-50 border-cyan-100/50 hover:border-cyan-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(6:13).pdf", worksheet: "/worksheet/CLO worksheet (6).pdf", ppt: "https://docs.google.com/presentation/d/1ZH3tXa-YqooVpPoyfhT-9pBSKxUYCSMIcc9kO5M8jG0/preview" },
     activities: [
-      "온라인 정보 탐색 및 평가",
-      "옆으로 읽기(Lateral Reading)를 통한 정보의 신뢰성 교차 검증"
+      "(도입) 가짜뉴스로 인한 문제 알아보기",
+      "(활동 1) 미디어의 내용을 비판적으로 읽어야하는 까닭 알아보기",
+      "(활동 2) 수평 읽기 알아보기",
+      "(활동 3) 수평 읽기"
     ]
   },
   { 
@@ -280,14 +290,15 @@ const CLO_SESSIONS = [
     phase: 3, 
     title: "7차시", 
     enTitle: "Session 7", 
-    desc: "사회 문제 해결을 위한 계획 세우기 (인터넷 탐색)", 
-    enDesc: "Making a plan to solve a local problem (Web Search)", 
+    desc: "사회 문제 해결을 위한 계획 세우기", 
+    enDesc: "Making a Plan to Solve Social Problems", 
     color: "bg-orange-50/50 group-hover:bg-orange-50 border-orange-100/50 hover:border-orange-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(7:13).pdf", worksheet: "/worksheet/CLO worksheet (7).pdf", ppt: "https://docs.google.com/presentation/d/1KT9JjcMQgxNHy349HhpsjIkR-b8niCsAxUaGKrv6LYo/preview" },
     activities: [
-      "해결하고 싶은 지역 사회 이슈 선정 (Selecting a local issue)",
-      "인터넷 검색을 통한 지역 이슈 심층 조사 (Searching the internet: local issues)",
-      "주장하는 글의 논리 구조 및 개요 설계 (Planning essay structure)"
+      "(도입) 미디어를 통한 사회 참여의 예 알아보기",
+      "(활동 1) 사회 문제 해결을 위한 계획 세우기",
+      "(활동 2) 자료 수집하기",
+      "(활동 3) 1인 크리에이터 계획 세우기"
     ]
   },
   { 
@@ -295,13 +306,14 @@ const CLO_SESSIONS = [
     phase: 3, 
     title: "8-9차시", 
     enTitle: "Sessions 8-9", 
-    desc: "주장하는 글 쓰기 & 출처 표기법", 
-    enDesc: "Writing persuasive texts & Citing sources", 
+    desc: "주장하는 글 쓰기", 
+    enDesc: "Writing Persuasive Texts", 
     color: "bg-amber-50/50 group-hover:bg-amber-50 border-amber-100/50 hover:border-amber-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(8-9:13).pdf", worksheet: "/worksheet/CLO worksheet (8-9).pdf", ppt: "https://docs.google.com/presentation/d/1H1YIHu-ZYx_5DofO3lSWU4aXrEqLot0SKEyjkqbEl_0/preview" },
     activities: [
-      "올바른 출처 표기법(How to cite the sources) 학습",
-      "지역 사회 문제 해결을 위한 주장하는 글 작성"
+      "(도입) 설득력 있는 주장 생각하기",
+      "(활동 1) 인용하는 방법 알아보기",
+      "(활동 2) 주장하는 글 쓰기"
     ]
   },
   { 
@@ -309,13 +321,15 @@ const CLO_SESSIONS = [
     phase: 3, 
     title: "10-12차시", 
     enTitle: "Sessions 10-12", 
-    desc: "글 고쳐쓰기 & 지역 문제 해결 영상 제작", 
-    enDesc: "Revising texts & Creating video", 
+    desc: "글 고쳐쓰기", 
+    enDesc: "Revising Texts", 
     color: "bg-yellow-50/50 group-hover:bg-yellow-50 border-yellow-100/50 hover:border-yellow-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(10-12:13).pdf", worksheet: "/worksheet/CLO worksheet (10-12).pdf", ppt: "https://docs.google.com/presentation/d/1Un_27NA9jFreOoFRIJzgxTJLtH6fKOIXb_7DTmc6qMo/preview" },
     activities: [
-      "심화 동료 피드백 및 글 고쳐쓰기 (Extended peer review and revising)",
-      "지역 문제 해결을 위한 동영상 콘텐츠 제작 (Creating video to solve local problems)"
+      "(도입) 글 고쳐쓰기란?",
+      "(활동 1) 글쓰기 과정 되돌아보기",
+      "(활동 2) 동료 평가하기",
+      "(활동 3) 1인 크리에이터 산출물 만들기"
     ]
   },
   { 
@@ -323,13 +337,13 @@ const CLO_SESSIONS = [
     phase: 4, 
     title: "13차시", 
     enTitle: "Session 13", 
-    desc: "프로젝트 결과 발표회 & 영상 시연", 
-    enDesc: "Final showcase: Exhibition of Essays and Videos", 
+    desc: "결과 발표회", 
+    enDesc: "Final Showcase", 
     color: "bg-purple-50/50 group-hover:bg-purple-50 border-purple-100/50 hover:border-purple-200/80", 
     docs: { plan: "/unitplan/clo_unitplan/K-CLO(13:13).pdf" },
     activities: [
-      "최종 프로젝트 발표회 (Final showcase)",
-      "프로젝트 성과물 전시: 주장하는 글 & 제작 영상 시연 (Exhibition: Essays and Videos)"
+      "(도입) 관람 예절 알아보기",
+      "(활동 1) 결과물 관람하기 및 발표회"
     ]
   }
 ];
@@ -518,7 +532,7 @@ function SessionDetail({ lang,
                <h4 className="font-bold text-sm text-primary mb-2 flex items-center gap-2">
                  <Target size={16} /> {lang === "ko" ? "학습 목표" : "Learning Objectives"}
                </h4>
-               <p className="text-gray-700 text-sm leading-relaxed mb-4">{session.desc}</p>
+               <p className="text-gray-700 text-sm leading-relaxed mb-4">{lang === 'ko' ? session.desc : session.enDesc}</p>
 
                {session.activities && session.activities.length > 0 && (
                  <div className="mt-4 p-4 rounded-2xl bg-primary/5 border border-primary/20">
