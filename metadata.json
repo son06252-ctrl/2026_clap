@@ -1,0 +1,8 @@
+{
+  "name": "CLAP Project 소개 페이지",
+  "description": "교과 문해력 및 AI 문해력 향상을 위한 프로젝트 기반 학습(CLAP) 커리큘럼 소개 랜딩 페이지",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
