@@ -61,6 +61,10 @@ const CLAP_SESSIONS = [
     activities: [
       "(도입) 바이브 코딩 및 프로젝트 방향 안내",
       "(활동) 교과 문해력과 AI 리터러시 연계 목표 탐색"
+    ],
+    enActivities: [
+      "(Intro) Introduction to Vibe Coding & Project Direction",
+      "(Activity) Exploring Curriculum Literacy and AI Literacy Integration"
     ]
   },
   { 
@@ -73,12 +77,19 @@ const CLAP_SESSIONS = [
     color: "bg-teal-50/50 group-hover:bg-teal-50 border-teal-100/50 hover:border-teal-200/80", 
     aiDimension: "Contextualization",
     alignment: "ED-AI Lit: 맥락화 (Contextualization)",
+    enAlignment: "ED-AI Lit: Contextualization",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(1-2:13).pdf", worksheet: "/worksheet/CLAP_worksheet (1-2).pdf", ppt: "https://docs.google.com/presentation/d/1qgS3PUJhvLxVSUhcKHWkkrU5XwQAd1PVQdd9JILvEpM/preview" },
     activities: [
       "(도입) 바이브 코딩 알아보기",
       "(활동 1) 일상의 문제 해결을 위한 AI 활용 사례 알아보기",
       "(활동 2) 프로젝트 주제망 작성하기",
       "(활동 3) 바이브코딩 따라해보기"
+    ],
+    enActivities: [
+      "(Intro) Understanding Vibe Coding",
+      "(Activity 1) Cases of Using AI to Solve Everyday Problems",
+      "(Activity 2) Creating a Project Topic Web",
+      "(Activity 3) Hands-on Vibe Coding Practice"
     ]
   },
   { 
@@ -91,6 +102,7 @@ const CLAP_SESSIONS = [
     color: "bg-green-50/50 group-hover:bg-green-50 border-green-100/50 hover:border-green-200/80", 
     aiDimension: "Knowledge",
     alignment: "ED-AI Lit: 지식 (Knowledge)",
+    enAlignment: "ED-AI Lit: Knowledge",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(3-4:13).pdf", worksheet: "/worksheet/CLAP_worksheet (3-4).pdf", ppt: "https://docs.google.com/presentation/d/1RgfQ8L7g-fxDL0sz3NuijMFBKLmwXPaqnfWYDdB5hAc/preview" },
     activities: [
       "(도입) 대립하는 주장 알아보기",
@@ -98,6 +110,13 @@ const CLAP_SESSIONS = [
       "(활동 2) 생성형 AI 사용방법 알아보기 (프롬프트)",
       "(활동 3) AI와 함께 주장하는 글 읽기",
       "(활동 4) 스크린 레코딩 업로드하기"
+    ],
+    enActivities: [
+      "(Intro) Understanding Opposing Viewpoints",
+      "(Activity 1) Structure & Features of Persuasive Texts",
+      "(Activity 2) How to Use Generative AI (Prompting)",
+      "(Activity 3) Reading Persuasive Texts with AI",
+      "(Activity 4) Uploading Screen Recording"
     ]
   },
   { 
@@ -110,12 +129,19 @@ const CLAP_SESSIONS = [
     color: "bg-lime-50/50 group-hover:bg-lime-50 border-lime-100/50 hover:border-lime-200/80", 
     aiDimension: "Ethics",
     alignment: "ED-AI Lit: 윤리 (Ethics)",
+    enAlignment: "ED-AI Lit: Ethics",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(5:13).pdf", worksheet: "/worksheet/CLAP worksheet (5).pdf", ppt: "https://docs.google.com/presentation/d/15GycQ0zWEPWBPXYuygHBi0XWY0NIdJsHmqv2x6Xy-p8/preview" },
     activities: [
       "(도입) AI와 저작권에 대해 생각해보기",
       "(활동 1) 민주주의에서 미디어의 역할 알아보기",
       "(활동 2) 미디어 사용 방법 알아보기",
       "(활동 3) AI 윤리 알아보기"
+    ],
+    enActivities: [
+      "(Intro) Thinking About AI and Copyright",
+      "(Activity 1) The Role of Media in a Democracy",
+      "(Activity 2) Guidelines for Media Usage",
+      "(Activity 3) Learning AI Ethics"
     ]
   },
   { 
@@ -128,11 +154,17 @@ const CLAP_SESSIONS = [
     color: "bg-cyan-50/50 group-hover:bg-cyan-50 border-cyan-100/50 hover:border-cyan-200/80", 
     aiDimension: "Evaluation",
     alignment: "ED-AI Lit: 비판적 평가 (Evaluation)",
+    enAlignment: "ED-AI Lit: Evaluation",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(6:13).pdf", worksheet: "/worksheet/CLAP worksheet (6).pdf", ppt: "https://docs.google.com/presentation/d/16yPCh4HY4aPtnPUkvZ0E_FmypAS-7Saw5GJcERTIaaI/preview" },
     activities: [
       "(도입) 가짜뉴스로 인한 문제에 대해 이야기 나누기",
       "(활동 1) 미디어의 내용을 비판적으로 읽어야하는 까닭",
       "(활동 2) 비판적으로 읽기 (수평 읽기)"
+    ],
+    enActivities: [
+      "(Intro) Discussing Problems Caused by Fake News",
+      "(Activity 1) Why We Need to Read Media Critically",
+      "(Activity 2) Critical Reading (Lateral Reading)"
     ]
   },
   { 
@@ -145,12 +177,19 @@ const CLAP_SESSIONS = [
     color: "bg-sky-50/50 group-hover:bg-sky-50 border-sky-100/50 hover:border-sky-200/80", 
     aiDimension: "Collaboration",
     alignment: "ED-AI Lit: 협업 및 소통 (Collaboration)",
+    enAlignment: "ED-AI Lit: Collaboration",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(7:13).pdf", worksheet: "/worksheet/CLAP worksheet (7).pdf", ppt: "https://docs.google.com/presentation/d/1sFm6zvWxN74MwQyQIMBi3mA1NDNpE1-ge1uwwemLGpU/preview" },
     activities: [
       "(도입) AI를 활용한 사회 문제 해결의 예 알아보기",
       "(활동 1) 사회 문제 해결을 위한 계획 세우기",
       "(활동 2) AI 활용해 검색하기 (글 계획 세우기)",
       "(활동 3) 개발하고 싶은 앱 계획 세우기"
+    ],
+    enActivities: [
+      "(Intro) Examples of Solving Social Issues with AI",
+      "(Activity 1) Planning Solutions for Social Problems",
+      "(Activity 2) Searching with AI (Essay Planning)",
+      "(Activity 3) Planning the Web App to Build"
     ]
   },
   { 
@@ -163,11 +202,17 @@ const CLAP_SESSIONS = [
     color: "bg-fuchsia-50/50 group-hover:bg-fuchsia-50 border-fuchsia-100/50 hover:border-fuchsia-200/80", 
     aiDimension: "Collaboration",
     alignment: "ED-AI Lit: 협력 (Collaboration)",
+    enAlignment: "ED-AI Lit: Collaboration",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(8-9:13).pdf", worksheet: "/worksheet/CLAP worksheet (8-9).pdf", ppt: "https://docs.google.com/presentation/d/1a-i9lzwU-qdyMNwk7rgeBadLNbGeVzw6jT1J0KKoCLQ/preview" },
     activities: [
       "(도입) 설득력 있는 주장 생각하기",
       "(활동 1) 인용하는 방법 알아보기",
       "(활동 2) 주장하는 글 쓰기"
+    ],
+    enActivities: [
+      "(Intro) Brainstorming Persuasive Arguments",
+      "(Activity 1) How to Quote and Cite",
+      "(Activity 2) Drafting the Persuasive Text"
     ]
   },
   { 
@@ -180,12 +225,19 @@ const CLAP_SESSIONS = [
     color: "bg-rose-50/50 group-hover:bg-rose-50 border-rose-100/50 hover:border-rose-200/80", 
     aiDimension: "Autonomy",
     alignment: "ED-AI Lit: 자율성 및 주도성 (Autonomy)",
+    enAlignment: "ED-AI Lit: Autonomy",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(10-12:13).pdf", worksheet: "/worksheet/CLAP worksheet (10-12).pdf", ppt: "https://docs.google.com/presentation/d/1ED4D0DLvmLCxKvWiame90i1AOTYqhMDUmWywDA_Xqow/preview" },
     activities: [
       "(도입) 작가들의 글 쓰기 과정 알아보기",
       "(활동 1) AI를 활용한 글 점검하기",
       "(활동 2) 동료 평가하기",
       "(활동 3) 바이브 코딩하기"
+    ],
+    enActivities: [
+      "(Intro) Exploring Writing Process of Authors",
+      "(Activity 1) Revising Texts with AI",
+      "(Activity 2) Peer Review & Feedback",
+      "(Activity 3) Hands-on Vibe Coding App Development"
     ]
   },
   { 
@@ -198,10 +250,15 @@ const CLAP_SESSIONS = [
     color: "bg-pink-50/50 group-hover:bg-pink-50 border-pink-100/50 hover:border-pink-200/80", 
     aiDimension: "Contextualization",
     alignment: "ED-AI Lit: 맥락화 (Contextualization)",
+    enAlignment: "ED-AI Lit: Contextualization",
     docs: { plan: "/unitplan/clap_unitplan/K-CLAP(13:13).pdf" },
     activities: [
       "(도입) 관람 예절 알아보기",
       "(활동 1) 결과물 관람 및 앱 발표하기"
+    ],
+    enActivities: [
+      "(Intro) Showcase Etiquette",
+      "(Activity 1) Exhibiting Outcomes & App Presentations"
     ]
   }
 ];
@@ -219,6 +276,10 @@ const CLO_SESSIONS = [
     activities: [
       "(도입) CLO 프로젝트 전체 목표 및 연간/학기 로드맵 확인",
       "(활동) 교과 문해력 중심 심층 독서·작문 방향 탐색"
+    ],
+    enActivities: [
+      "(Intro) Reviewing CLO Project Goals and Roadmap",
+      "(Activity) Exploring Curriculum Literacy Reading & Writing"
     ]
   },
   { 
@@ -235,6 +296,12 @@ const CLO_SESSIONS = [
       "(활동 1) 일상 문제 해결을 위한 시민참여 사례 알아보기",
       "(활동 2) 프로젝트 주제망 작성하기",
       "(활동 3) 시민과학 체험하기"
+    ],
+    enActivities: [
+      "(Intro) Understanding Civic Participation",
+      "(Activity 1) Cases of Civic Action in Everyday Life",
+      "(Activity 2) Creating a Project Topic Web",
+      "(Activity 3) Exploring Citizen Science"
     ]
   },
   { 
@@ -251,6 +318,12 @@ const CLO_SESSIONS = [
       "(활동 1) 주장하는 글의 짜임과 특징 알아보기",
       "(활동 2) 주장하는 글 읽기",
       "(활동 3) 인터넷 검색하며 주장하는 글 읽기"
+    ],
+    enActivities: [
+      "(Intro) Understanding Opposing Arguments",
+      "(Activity 1) Structure & Features of Persuasive Writing",
+      "(Activity 2) Reading Persuasive Texts",
+      "(Activity 3) Searching Online While Reading Persuasive Texts"
     ]
   },
   { 
@@ -267,6 +340,12 @@ const CLO_SESSIONS = [
       "(활동 1) 민주주의에서 미디어의 역할 알아보기",
       "(활동 2) 미디어 사용 유의점 알아보기",
       "(활동 3) 미디어 윤리 (내가 1인 크리에이터라면?)"
+    ],
+    enActivities: [
+      "(Intro) Thinking About Media and Copyright",
+      "(Activity 1) The Role of Media in a Democracy",
+      "(Activity 2) Cautionary Points in Media Use",
+      "(Activity 3) Media Ethics (If I Were a Creator)"
     ]
   },
   { 
@@ -283,6 +362,12 @@ const CLO_SESSIONS = [
       "(활동 1) 미디어의 내용을 비판적으로 읽어야하는 까닭 알아보기",
       "(활동 2) 수평 읽기 알아보기",
       "(활동 3) 수평 읽기"
+    ],
+    enActivities: [
+      "(Intro) Understanding Issues with Fake News",
+      "(Activity 1) Why We Need to Read Media Critically",
+      "(Activity 2) Learning Lateral Reading",
+      "(Activity 3) Practicing Lateral Reading"
     ]
   },
   { 
@@ -299,6 +384,12 @@ const CLO_SESSIONS = [
       "(활동 1) 사회 문제 해결을 위한 계획 세우기",
       "(활동 2) 자료 수집하기",
       "(활동 3) 1인 크리에이터 계획 세우기"
+    ],
+    enActivities: [
+      "(Intro) Civic Participation Through Media",
+      "(Activity 1) Planning Solutions for Social Issues",
+      "(Activity 2) Collecting Reference Materials",
+      "(Activity 3) Planning as a Solo Creator"
     ]
   },
   { 
@@ -314,6 +405,11 @@ const CLO_SESSIONS = [
       "(도입) 설득력 있는 주장 생각하기",
       "(활동 1) 인용하는 방법 알아보기",
       "(활동 2) 주장하는 글 쓰기"
+    ],
+    enActivities: [
+      "(Intro) Brainstorming Persuasive Arguments",
+      "(Activity 1) How to Quote and Cite",
+      "(Activity 2) Writing Persuasive Texts"
     ]
   },
   { 
@@ -330,6 +426,12 @@ const CLO_SESSIONS = [
       "(활동 1) 글쓰기 과정 되돌아보기",
       "(활동 2) 동료 평가하기",
       "(활동 3) 1인 크리에이터 산출물 만들기"
+    ],
+    enActivities: [
+      "(Intro) What is Text Revision?",
+      "(Activity 1) Reflecting on the Writing Process",
+      "(Activity 2) Peer Evaluation & Feedback",
+      "(Activity 3) Creating Creator Outputs"
     ]
   },
   { 
@@ -344,6 +446,10 @@ const CLO_SESSIONS = [
     activities: [
       "(도입) 관람 예절 알아보기",
       "(활동 1) 결과물 관람하기 및 발표회"
+    ],
+    enActivities: [
+      "(Intro) Exhibition Etiquette",
+      "(Activity 1) Visiting Showcases & Final Presentation"
     ]
   }
 ];
@@ -444,7 +550,7 @@ function SessionDetail({ lang,
           </button>
         </div>
         <div className="font-bold text-lg text-ink truncate max-w-[50vw]">
-          {session.title}
+          {lang === 'ko' ? session.title : session.enTitle}
         </div>
         <div className="flex flex-row gap-2">
            {currentUrl && activeDoc === 'ppt' && (
@@ -473,14 +579,14 @@ function SessionDetail({ lang,
                  <iframe 
                    src={currentUrl} 
                    className="w-full h-full border-none bg-white flex-1 relative z-0 pt-10"
-                   title={`${session.title} ${activeDoc}`}
+                   title={`${lang === 'ko' ? session.title : session.enTitle} ${activeDoc}`}
                    allowFullScreen
                  />
                </>
              ) : (
                <PDFViewer 
                  url={currentUrl} 
-                 title={`${session.title} - ${activeDoc === 'plan' ? (lang === 'ko' ? '지도안' : 'Lesson Plan') : (lang === 'ko' ? '워크시트' : 'Worksheet')}`}
+                 title={`${lang === 'ko' ? session.title : session.enTitle} - ${activeDoc === 'plan' ? (lang === 'ko' ? '지도안' : 'Lesson Plan') : (lang === 'ko' ? '워크시트' : 'Worksheet')}`}
                  lang={lang}
                />
              )
@@ -543,12 +649,12 @@ function SessionDetail({ lang,
                      </h5>
                      {session.alignment && (
                        <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-white text-primary border border-primary/20 shadow-2xs">
-                         {session.alignment}
+                         {lang === 'ko' ? session.alignment : (session.enAlignment || session.alignment)}
                        </span>
                      )}
                    </div>
                    <ul className="space-y-2 text-xs text-slate-700">
-                     {session.activities.map((act: string, idx: number) => (
+                     {(lang === 'ko' ? session.activities : (session.enActivities || session.activities)).map((act: string, idx: number) => (
                        <li key={idx} className="flex items-start gap-2 leading-relaxed">
                          <span className="text-primary font-bold mt-0.5">•</span>
                          <span>{act}</span>
@@ -631,10 +737,12 @@ const EDAI_FRAMEWORK_DIMENSIONS = [
     badgeColor: 'bg-sky-50 text-sky-700 border-sky-100',
     activityBg: 'bg-sky-50/70 border-sky-200 text-sky-950',
     badge: 'CLAP 3-4차시 연계',
+    enBadge: 'Aligned with Sessions 3-4',
     sessionId: 3,
     definition: 'To gain an understanding of how AI technologies work.',
     koDesc: '인공지능의 기본 원리와 머신러닝 학습 메커니즘, 기술 작동 방식을 종합적으로 이해합니다.',
     summary: '기술 원리 및 데이터 이해',
+    enSummary: 'Principles & Data Understanding',
     activityExamples: [
       'AI 원리 탐구: AI for Oceans를 활용한 머신러닝 분류 및 모델 학습 원리 실습',
       '프롬프트 작성 훈련: 생성형 AI에게 효과적으로 질문하고 요청하는 프롬프트 작성법 익히기',
@@ -655,10 +763,12 @@ const EDAI_FRAMEWORK_DIMENSIONS = [
     badgeColor: 'bg-indigo-50 text-indigo-700 border-indigo-100',
     activityBg: 'bg-indigo-50/70 border-indigo-200 text-indigo-950',
     badge: 'CLAP 6차시 연계',
+    enBadge: 'Aligned with Session 6',
     sessionId: 5,
     definition: 'To develop the ability to critically judge AI technologies.',
     koDesc: 'AI의 강점, 한계점, 잠재적 편향성(Strengths, limitations, biases)을 비판적 시각에서 평가합니다.',
     summary: '비판적 분석 및 한계 검증',
+    enSummary: 'Critical Analysis & Limitation',
     activityExamples: [
       '온라인 정보 vs AI 생성 정보 비교: 사람이 작성한 온라인 정보와 AI 생성 텍스트의 차이점 및 신뢰도 분석',
       '옆으로 읽기(Lateral Reading): 다른 신뢰할 수 있는 탭과 출처를 열어 정보의 사실 여부 교차 검증 및 팩트체크',
@@ -679,10 +789,12 @@ const EDAI_FRAMEWORK_DIMENSIONS = [
     badgeColor: 'bg-rose-50 text-rose-700 border-rose-100',
     activityBg: 'bg-rose-50/70 border-rose-200 text-rose-950',
     badge: 'CLAP 5차시 / 8-9차시 연계',
+    enBadge: 'Aligned with Sessions 5 & 8-9',
     sessionId: 4,
     definition: 'To recognize and address moral issues related to AI technologies.',
     koDesc: '공정성, 책임성, 투명성, 개인정보 보호(Fairness, accountability, privacy) 등 윤리적 가치를 내면화합니다.',
     summary: '사회적 책임 및 도덕적 기준',
+    enSummary: 'Social Responsibility & Ethics',
     activityExamples: [
       '미디어의 사회적 역할 탐구: 민주주의 사회에서 미디어와 인공지능이 미치는 영향력 이해',
       '미디어 에티켓 및 AI 윤리: 책임감 있는 AI 활용 규범과 개인정보 보호, 공정성 실천',
@@ -703,10 +815,12 @@ const EDAI_FRAMEWORK_DIMENSIONS = [
     badgeColor: 'bg-amber-50 text-amber-700 border-amber-100',
     activityBg: 'bg-amber-50/70 border-amber-200 text-amber-950',
     badge: 'CLAP 1-2차시 & 13차시 연계',
+    enBadge: 'Aligned with Sessions 1-2 & 13',
     sessionId: 2,
     definition: 'To understand how to use AI as a tool in real-world settings.',
     koDesc: '실제 사회적 문제와 실생활 맥락 속에서 당면 과제를 해결하는 유용한 도구로 AI를 활용합니다.',
     summary: '실생활 문제 해결 도구',
+    enSummary: 'Real-world Problem Solving Tool',
     activityExamples: [
       '사회 문제 해결 프로젝트 이해: 실생활 문제를 해결하기 위한 도구로서 AI의 필요성과 프로젝트 목표 설정 (1-2차시)',
       '실세계 바이브 코딩: 지역 공동체의 실질적 문제 해결을 위한 바이브 코딩(Vibe Coding) 기획 및 착수',
@@ -727,10 +841,12 @@ const EDAI_FRAMEWORK_DIMENSIONS = [
     badgeColor: 'bg-emerald-50 text-emerald-700 border-emerald-100',
     activityBg: 'bg-emerald-50/70 border-emerald-200 text-emerald-950',
     badge: 'CLAP 7차시 연계',
+    enBadge: 'Aligned with Session 7',
     sessionId: 6,
     definition: 'To develop skills for effective communication and collaboration with AI systems and individuals.',
     koDesc: 'AI 시스템과의 상호작용뿐 아니라, AI를 매개로 동료 및 다른 사람들과 효과적으로 협력하고 소통합니다.',
     summary: '인간-AI 및 동료 간 시너지',
+    enSummary: 'Human-AI & Peer Synergy',
     activityExamples: [
       '지역 사회 문제 선정 토론: 모둠원과 함께 해결하고자 하는 우리 지역 공동체의 핵심 이슈 선정',
       'AI 지원 정보 탐색: AI를 브레인스토밍 및 심층 정보 조사 파트너로 활용',
@@ -751,10 +867,12 @@ const EDAI_FRAMEWORK_DIMENSIONS = [
     badgeColor: 'bg-teal-50 text-teal-700 border-teal-100',
     activityBg: 'bg-teal-50/70 border-teal-200 text-teal-950',
     badge: 'CLAP 10-12차시 연계',
+    enBadge: 'Aligned with Sessions 10-12',
     sessionId: 8,
     definition: 'To develop self-determination in actions and decision-making when interacting with AI.',
     koDesc: 'AI에 맹목적으로 의존하지 않고, 자신의 생각과 주도적인 판단에 따라 주체적으로 의사결정을 내립니다.',
     summary: '주체적 의사결정 및 자기결정권',
+    enSummary: 'Autonomous Decision-making',
     activityExamples: [
       '주체적 글 퇴고: 동료 피드백과 AI 제안을 비판적으로 선별·비교하여 글 수정 반영 (Revising with AI)',
       '문제 해결 바이브 코딩 솔루션 제작: 자기 주도적 의사결정으로 지역 문제 해결 웹앱/프로그램 직접 구현',
@@ -905,7 +1023,7 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
                rel="noreferrer"
                className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-xl border border-gray-200 text-sm font-medium hover:bg-gray-50 transition-colors"
              >
-               새 탭으로 열기
+               {lang === "ko" ? "새 탭으로 열기" : "Open in new tab"}
                <ExternalLink size={16} />
              </a>
           </div>
@@ -951,9 +1069,20 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
   tomorrow.setDate(tomorrow.getDate() + 1);
   const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
 
-  const highlightSchedule = (schedule: string) => {
-    return schedule.split(/(\d+(?:-\d+)?교시|\d+(?:-\d+)?차시)/g).map((part, i) => 
-      part.match(/\d+(?:-\d+)?교시|\d+(?:-\d+)?차시/) ? 
+  const formatScheduleText = (schedule: string, currentLang: 'ko' | 'en') => {
+    if (!schedule || schedule === '없음') return schedule;
+    if (currentLang === 'ko') return schedule;
+    return schedule
+      .replace(/(\d+(?:-\d+)?)교시에\s*(\d+(?:-\d+)?)차시/g, 'Period $1 (Sessions $2)')
+      .replace(/(\d+(?:-\d+)?)교시에/g, 'Period $1')
+      .replace(/(\d+(?:-\d+)?)차시/g, 'Sessions $1')
+      .replace(/에 관련 일정\(([^)]+)\)/g, ' ($1)');
+  };
+
+  const highlightSchedule = (schedule: string, currentLang: 'ko' | 'en') => {
+    const formatted = formatScheduleText(schedule, currentLang);
+    return formatted.split(/(Period\s+\d+(?:-\d+)?|\d+(?:-\d+)?교시|Sessions?\s+\d+(?:-\d+)?|\d+(?:-\d+)?차시)/g).map((part, i) => 
+      part.match(/(Period\s+\d+(?:-\d+)?|\d+(?:-\d+)?교시|Sessions?\s+\d+(?:-\d+)?|\d+(?:-\d+)?차시)/) ? 
         <span key={i} className="font-bold text-red-600">{part}</span> : 
         <span key={i}>{part}</span>
     );
@@ -1085,8 +1214,8 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
                   ) : (
                     <span>
                       {lang === 'ko' 
-                        ? <>선생님, 오늘({today.getFullYear()}년 {today.getMonth() + 1}월 {today.getDate()}일, {weekdays[today.getDay()]}요일)은 {highlightSchedule(todaySchedule)} 수업이 있습니다.</>
-                        : <>Today you have {highlightSchedule(todaySchedule)} classes.</>}
+                        ? <>선생님, 오늘({today.getFullYear()}년 {today.getMonth() + 1}월 {today.getDate()}일, {weekdays[today.getDay()]}요일)은 {highlightSchedule(todaySchedule, 'ko')} 수업이 있습니다.</>
+                        : <>Today you have {highlightSchedule(todaySchedule, 'en')} scheduled.</>}
                     </span>
                   )}
                 </p>
@@ -1094,7 +1223,7 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
                   <p className={`${project === 'CLO' ? 'text-blue-800/80' : 'text-emerald-800/80'} text-sm font-medium`}>
                     {tomorrowSchedule === '없음' 
                       ? (lang === 'ko' ? `내일(${tomorrow.getFullYear()}년 ${tomorrow.getMonth() + 1}월 ${tomorrow.getDate()}일, ${weekdays[tomorrow.getDay()]}요일)은 예정된 수업이 없습니다.` : `There are no classes scheduled for tomorrow.`)
-                      : (lang === 'ko' ? <>내일({tomorrow.getFullYear()}년 {tomorrow.getMonth() + 1}월 {tomorrow.getDate()}일, {weekdays[tomorrow.getDay()]}요일)은 {highlightSchedule(tomorrowSchedule)} 수업이 예정되어 있습니다.</> : <>Tomorrow you have {highlightSchedule(tomorrowSchedule)} classes scheduled.</>)
+                      : (lang === 'ko' ? <>내일({tomorrow.getFullYear()}년 {tomorrow.getMonth() + 1}월 {tomorrow.getDate()}일, ${weekdays[tomorrow.getDay()]}요일)은 {highlightSchedule(tomorrowSchedule, 'ko')} 수업이 예정되어 있습니다.</> : <>Tomorrow you have {highlightSchedule(tomorrowSchedule, 'en')} scheduled.</>)
                     }
                   </p>
                 )}
@@ -1228,7 +1357,7 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
             {/* Citation만 왼쪽 정렬 */}
             <div className="w-full text-left pt-3 border-t border-gray-100">
               <p className="text-left text-xs sm:text-sm text-gray-500 font-serif leading-relaxed">
-                Allen, L. K., &amp; Kendeou, P. (2024). <span className="italic">ED-AI Lit: An interdisciplinary framework for AI literacy in education.</span> Policy Insights from the Behavioral and Brain Sciences, 11(1), 3-10.
+                Allen, L. K., &amp; Kendeou, P. (2024). ED-AI Lit: An interdisciplinary framework for AI literacy in education. <span className="italic">Policy Insights from the Behavioral and Brain Sciences</span>, <span className="italic">11</span>(1), 3-10.
               </p>
             </div>
           </FadeIn>
@@ -1275,23 +1404,27 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
                           <IconComp size={24} />
                         </div>
                         <span className={`text-xs font-semibold px-2.5 py-1 rounded-full border ${dim.badgeColor}`}>
-                          {dim.badge}
+                          {lang === 'ko' ? dim.badge : (dim.enBadge || dim.badge)}
                         </span>
                       </div>
 
                       <div className="flex items-center gap-2 mb-2">
                         <h3 className="text-xl font-bold text-ink">{dim.title}</h3>
-                        <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-gray-100 text-gray-700">
-                          {lang === "ko" ? dim.koTitle : dim.title}
-                        </span>
+                        {lang === 'ko' && (
+                          <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-gray-100 text-gray-700">
+                            {dim.koTitle}
+                          </span>
+                        )}
                       </div>
 
                       <p className="text-sm font-medium text-gray-700 mb-2 leading-snug">
                         {dim.definition}
                       </p>
-                      <p className="text-xs text-gray-500 leading-relaxed mb-4">
-                        {lang === "ko" ? dim.koDesc : dim.definition}
-                      </p>
+                      {lang === 'ko' && (
+                        <p className="text-xs text-gray-500 leading-relaxed mb-4">
+                          {dim.koDesc}
+                        </p>
+                      )}
 
                       {/* Click prompt banner */}
                       <div className="flex items-center justify-between py-2.5 px-3.5 rounded-xl bg-primary/5 group-hover:bg-primary/10 transition-colors text-xs font-bold mb-3">
@@ -1322,7 +1455,7 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
                     <div className="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-medium text-gray-600">
                       <span className="inline-flex items-center gap-1.5">
                         <CheckCircle2 size={14} className="text-primary" />
-                        {dim.summary}
+                        {lang === 'ko' ? dim.summary : (dim.enSummary || dim.summary)}
                       </span>
                       <span className="text-[11px] font-bold text-primary group-hover:underline flex items-center gap-1">
                         {lang === 'ko' ? '활동 전체보기' : 'View Activities'} →
@@ -1353,11 +1486,15 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
                     <div>
                       <div className="flex items-center gap-2">
                         <h3 className="text-2xl font-bold text-ink">{selectedFrameworkModal.title}</h3>
-                        <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-gray-100 text-gray-700">
-                          {lang === 'ko' ? selectedFrameworkModal.koTitle : selectedFrameworkModal.title}
-                        </span>
+                        {lang === 'ko' && (
+                          <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-gray-100 text-gray-700">
+                            {selectedFrameworkModal.koTitle}
+                          </span>
+                        )}
                       </div>
-                      <span className="text-xs font-semibold text-primary">{selectedFrameworkModal.badge}</span>
+                      <span className="text-xs font-semibold text-primary">
+                        {lang === 'ko' ? selectedFrameworkModal.badge : (selectedFrameworkModal.enBadge || selectedFrameworkModal.badge)}
+                      </span>
                     </div>
                   </div>
                   <button
@@ -1372,7 +1509,7 @@ function ProjectApp({ project, onLogout, lang, setLang }: { project: ProjectType
                 {/* Definition */}
                 <div className="mb-4 p-4 rounded-2xl bg-gray-50 border border-gray-100 text-sm text-gray-700 leading-relaxed">
                   <p className="font-semibold text-ink mb-1">{selectedFrameworkModal.definition}</p>
-                  <p className="text-xs text-gray-500">{lang === 'ko' ? selectedFrameworkModal.koDesc : selectedFrameworkModal.definition}</p>
+                  {lang === 'ko' && <p className="text-xs text-gray-500">{selectedFrameworkModal.koDesc}</p>}
                 </div>
 
                 {/* 수업 활동예시: xxx */}

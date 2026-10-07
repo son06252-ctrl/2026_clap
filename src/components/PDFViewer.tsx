@@ -14,8 +14,9 @@ import {
   RefreshCw
 } from 'lucide-react';
 
-// Set worker source to the static file in public
-pdfjsLib.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.mjs';
+// Resolve base URL for Vite / GitHub Pages subpath
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+pdfjsLib.GlobalWorkerOptions.workerSrc = `${base}pdf.worker.min.mjs`;
 
 interface PDFViewerProps {
   url: string;
@@ -34,7 +35,14 @@ export default function PDFViewer({ url, title, lang = 'ko' }: PDFViewerProps) {
   const [pdfDoc, setPdfDoc] = useState<pdfjsLib.PDFDocumentProxy | null>(null);
   const canvasRefs = useRef<{ [key: number]: HTMLCanvasElement | null }>({});
 
-  const encodedUrl = encodeURI(url);
+  const resolveUrl = (rawUrl: string) => {
+    if (!rawUrl) return '';
+    if (rawUrl.startsWith('http://') || rawUrl.startsWith('https://')) return rawUrl;
+    const clean = rawUrl.startsWith('/') ? rawUrl.slice(1) : rawUrl;
+    return `${base}${clean}`;
+  };
+
+  const encodedUrl = encodeURI(resolveUrl(url));
 
   // Load PDF document
   useEffect(() => {
